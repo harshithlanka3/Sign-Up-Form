@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script defer src="app.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">    <script defer src="app.js"></script>
     <title>Sign-Up Form</title>
 </head>
 <body>
@@ -22,7 +22,54 @@
             </div>
         </div>
         <div class="content">
-            Hello
+            <div class="description">
+                <p>
+                    This is not a real online service! You know you need
+                    something like this in your life to help you realize your
+                    deepest dreams.<br />
+                    Sign up <em>now</em> to get started.<br />
+                    <br />
+                    You <em>know</em> you want to.
+                </p>
+            </div>
+            <div class="form-container">
+                <form>
+                    <h1>
+                        Let's do this!
+                    </h1>
+                    <div class="inputs">
+                        <div class="left">
+                            <label for="firstname">
+                                FIRST NAME
+                            </label>
+                            <input type="text" id="firstname" name="firstName" />
+                            <label for="email">
+                                EMAIL
+                            </label>
+                            <input type="email" id="email" name="userMail" />
+                            <label for="password">
+                                PASSWORD
+                            </label>
+                            <input type="password" id="password" name="pwd" />
+                        </div>
+                        <div class="right">
+                            <label for="lastname">
+                                LAST NAME
+                            </label>
+                            <input type="text" id="lastname" name="lastName">
+                            <label for="phonenumber">
+                                PHONE NUMBER
+                            </label>
+                            <input type="tel" id="phonenumber" name="userPhone" />
+                            <label for="confpassword">
+                                CONFIRM PASSWORD
+                            </label>
+                            <input type="password" id="confpassword" name="confPwd" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="submission"></div>
         </div>
     </main>
 </body>

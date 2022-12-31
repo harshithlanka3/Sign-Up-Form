@@ -54,8 +54,15 @@ table {
     src: url(./fonts/Norse-Bold.otf);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 main {
     display: flex;
+    font-family: 'Roboto', sans-serif;
 }
 
 .image-sidebar {
@@ -108,5 +115,58 @@ footer {
 
 .content {
     flex: 2;
-    background-color: aliceblue;
+    background-color: rgb(242, 243, 245);
+    display: flex;
+    flex-direction: column;
+}
+
+em {
+    font-style: italic;
+}
+
+.description {
+    min-width: 400px;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+    padding: 75px 225px 50px 35px;
+}
+
+.form-container {
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+form > h1 {
+    padding: 35px 0 0 35px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 35px;
+    gap: 100px;
+}
+
+label {
+    padding-bottom: 5px;
+}
+
+input {
+    min-width: 200px;
+    min-height: 20px;
+    margin-bottom: 20px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
 }
