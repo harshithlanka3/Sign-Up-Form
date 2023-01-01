@@ -96,7 +96,6 @@ main {
 .logo-area > div > div {
     font-family: norseBold;
     color: white;
-    font-weight: bold;
     font-size: 72px;
     padding: 20px 0 0 5px;
 }
@@ -147,6 +146,7 @@ em {
 
 form > h1 {
     padding: 35px 0 0 35px;
+    font-size: 22px;
 }
 
 .inputs {
@@ -159,12 +159,31 @@ form > h1 {
 
 label {
     padding-bottom: 5px;
+    letter-spacing: 0.1em;
+    font-size: 12px;
 }
 
 input {
     min-width: 200px;
-    min-height: 20px;
+    min-height: 25px;
     margin-bottom: 20px;
+    border: 1px solid #E5E7Eb
+}
+
+input:focus {
+    border: 1px solid blue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.error {
+    border: 1px solid red;
+    margin-bottom: 2px;
+}
+
+.error-msg {
+    margin-top: 0;
+    color: red;
+    font-size: 0.8rem;
 }
 
 .left {
