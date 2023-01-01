@@ -144,7 +144,7 @@ em {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-form > h1 {
+form > div > h1 {
     padding: 35px 0 0 35px;
     font-size: 22px;
 }
@@ -194,4 +194,22 @@ input:focus {
 .right {
     display: flex;
     flex-direction: column;
+}
+
+.submission {
+    display: flex;
+    flex-direction: column;
+}
+
+#create_account {
+    background-color: #596D48;
+    color: white;
+    width: 220px;
+    height: 50px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 35px 0 25px 35px;
 }
